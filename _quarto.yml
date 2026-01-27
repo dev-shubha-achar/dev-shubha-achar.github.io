@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: _site
+
+execute:
+  freeze: auto  
+
+website:
+  title: "dev-shubha-achar" 
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/dev-shubha-achar
+      - icon: x
+        href: https://x.com/AcharShubha
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+
